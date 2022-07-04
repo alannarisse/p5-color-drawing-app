@@ -1,0 +1,38 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+        font-family: 'Kanit', sans-serif;
+
+}
+
+header {
+    padding-top:20px;
+    padding-bottom:20px;
+    border-bottom: 1px solid black;
+    display:flex;
+    justify-content:space-between;
+    width:95%;
+    margin:auto;
+}
+.button {
+    margin-right:10px;
+    border:1px solid black;
+    padding:10px;
+    border-radius: 16px;
+}
+ a.button {
+    color: black;
+}
+a.button:hover {
+    color: red;
+}
+canvas {
+    margin-top:0px;
+}
+.hide {display:none;}
+a {
+    text-decoration:none;
+    font-weight: bold;
+}
+nav { margin-left:120px;}
